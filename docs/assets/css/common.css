@@ -86,7 +86,6 @@
   /*IE*/
 }
 
-
 /* ガターの溝をなくす */
 .no-gutter > [class*='col-'] {
     padding-right:0;
