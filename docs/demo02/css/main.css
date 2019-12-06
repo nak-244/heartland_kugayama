@@ -29,50 +29,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*[ FONT ]
 ///////////////////////////////////////////////////////////
 */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
-
-@font-face {
-  font-family: Montserrat-Regular;
-  src: url('../fonts/montserrat/Montserrat-Regular.ttf');
-}
-
-@font-face {
-  font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
-}
-
-@font-face {
-  font-family: Courgette-Regular;
-  src: url('../fonts/courgette/Courgette-Regular.ttf');
-}
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf');
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf');
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf');
-}
-
-@font-face {
-  font-family: Poppins-Light;
-  src: url('../fonts/poppins/Poppins-Light.ttf');
-}
-
-@font-face {
-  font-family: NotoSans-Regular;
-  src: url('../fonts/notosans/NotoSans-Regular.ttf');
-}
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:500&display=swap&subset=japanese');
 
 /*[ RESTYLE TAG ]
 ///////////////////////////////////////////////////////////
@@ -85,13 +42,13 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 body, html {
   height: 100%;
-  font-family: Montserrat, sans-serif;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
 }
 
 /* ------------------------------------ */
 a {
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
@@ -118,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
@@ -350,7 +307,7 @@ input[type="date"i] {
 
 .table-condensed td, .table-condensed th {
   font-size: 14px;
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
 }
 
@@ -446,7 +403,7 @@ input[type="date"i] {
 ===========================================================*/
 .select2-selection__rendered {
   font-size: 14px;
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   color: #666666 !important;
   padding-left: 20px !important;
@@ -484,7 +441,7 @@ input[type="date"i] {
 
 .select2-results__options {
   font-size: 14px;
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   color: #666666 !important;
 }
@@ -492,7 +449,7 @@ input[type="date"i] {
 .select2-search--dropdown .select2-search__field {
   border: 1px solid #aaa !important;
   outline: none;
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   font-size: 14px;
   color: #666666;
@@ -599,7 +556,7 @@ input[type="date"i] {
 }
 
 .main_menu>li>a {
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -666,7 +623,7 @@ input[type="date"i] {
 
 .sub_menu li, .sub_menu a {
   padding: 10px;
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   font-size: 14px;
   color: #808080;
@@ -1375,7 +1332,7 @@ body {
   bottom: 11px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 3px 15px;
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   font-size: 12px;
   color: white;
@@ -1539,7 +1496,7 @@ body {
 ///////////////////////////////////////////////////////////
 */
 .item-pagination {
-  font-family: Montserrat;
+  font-family: 'Noto Serif JP', serif;
   font-weight: 400;
   font-size: 13px;
   color: #808080;
