@@ -64,5 +64,9 @@
 
 /* HEROテキスト */
 .neon1 {
+  text-shadow: 0 0 0.2em rgba(0, 0, 0, 1);
+}
+
+.neon2 {
   text-shadow: 0 0 0.2em rgba(255, 255, 255, 1);
 }
