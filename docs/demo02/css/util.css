@@ -3053,6 +3053,15 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	letter-spacing: 3px;
 }
 
+.tit11 {
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 500;
+	font-size: 1.3rem;
+	line-height: 1.2;
+  color: #d61c22;
+	text-transform: uppercase;
+}
+
 /*[ Text ]
 -----------------------------------------------------------
 */
