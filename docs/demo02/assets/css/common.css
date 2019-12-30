@@ -70,3 +70,52 @@
 .neon2 {
   text-shadow: 0 0 0.2em rgba(255, 255, 255, 1);
 }
+
+/*
+ * テーブル調整
+ */
+table {
+  margin: 20px auto;
+}
+
+.tbl-r02 {
+  width: 100%;
+}
+
+.tbl-r02 th {
+  background: #f9f9f9;
+  border: solid 1px #ccc;
+  padding: 10px;
+  width: 20%;
+}
+
+.tbl-r02 td {
+  border: solid 1px #ccc;
+  padding: 10px;
+  width: 80%;
+}
+
+@media screen and (max-width: 919px) {
+
+  .tbl-r02 {
+    width: 100%;
+  }
+
+.tbl-r02 th {
+      border-bottom: none;
+}
+
+  .tbl-r02 th,
+  .tbl-r02 td {
+    display: block;
+    width: 100%;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
