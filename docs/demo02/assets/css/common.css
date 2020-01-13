@@ -139,3 +139,23 @@ table {
     top: -1px;                  /* 位置調整 */
     margin-right: 5px;          /* 余白指定 */
 }
+
+/* フロアマップ用 */
+.item-gallery1 {
+  width: calc((100% - 140px) / 2);
+  margin: 30px 15px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .item-gallery1 {
+    width: calc((100% - 110px) / 2);
+  }
+}
+
+@media (max-width: 576px) {
+  .item-gallery1 {
+    width: calc((100% - 30px) / 1);
+  }
+
+}
