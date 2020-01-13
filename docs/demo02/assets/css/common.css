@@ -159,3 +159,23 @@ table {
   }
 
 }
+
+/* 居室用 */
+.item-gallery2 {
+  width: calc((100% - 140px) / 1);
+  margin: 30px 15px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .item-gallery2 {
+    width: calc((100% - 110px) / 1);
+  }
+}
+
+@media (max-width: 576px) {
+  .item-gallery2 {
+    width: calc((100% - 30px) / 1);
+  }
+
+}
