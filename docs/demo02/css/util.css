@@ -3067,7 +3067,6 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 700;
 	font-size: 35px;
 	line-height: 1.2;
-	color: white;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	word-spacing: 6px;
@@ -3579,6 +3578,9 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	max-width: 190px;
 }
 
+.size39 {
+	width: 100%;
+}
 /*[ Background Color ]
 -----------------------------------------------------------
 */
