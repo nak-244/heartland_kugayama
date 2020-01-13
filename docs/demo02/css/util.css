@@ -3062,6 +3062,17 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	text-transform: uppercase;
 }
 
+.tit12 {
+	font-family: 'Noto Sans JP', serif;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 1.2;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+}
+
 /*[ Text ]
 -----------------------------------------------------------
 */
