@@ -3071,6 +3071,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	word-spacing: 6px;
 }
 
+.tit13 {
+	font-family: 'Noto Sans JP', serif;
+	font-weight: 500;
+	line-height: 1.2;
+	color: #d61c22;
+	text-transform: uppercase;
+}
+
 /*[ Text ]
 -----------------------------------------------------------
 */
