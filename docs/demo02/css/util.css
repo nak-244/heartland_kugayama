@@ -3392,6 +3392,12 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	line-height: 1.8;
 }
 
+.txt36 {
+	font-family: 'Noto Sans JP', serif;
+	font-weight: 500;
+	font-size: 1.2rem;
+	color: #FFFFFF;
+}
 
 /*[ Color ]
 -----------------------------------------------------------
