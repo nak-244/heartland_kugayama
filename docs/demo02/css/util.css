@@ -3079,6 +3079,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	text-transform: uppercase;
 }
 
+.tit14 {
+	font-family: 'Noto Sans JP', serif;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.2;
+  color: #d61c22;
+}
+
 /*[ Text ]
 -----------------------------------------------------------
 */
