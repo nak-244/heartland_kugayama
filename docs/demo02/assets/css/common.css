@@ -185,8 +185,3 @@ table {
     width: calc((100% - 30px) / 1);
   }
 }
-
-/* 背景グラデーション */
-.bg-g-01 {
-  background: linear-gradient(#05FBFF, #1E00FF);
-}
