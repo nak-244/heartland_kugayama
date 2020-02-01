@@ -96,22 +96,19 @@ table {
 }
 
 @media screen and (max-width: 919px) {
-
   .tbl-r02 {
     width: 100%;
   }
 
-.tbl-r02 th {
-      border-bottom: none;
-}
+  .tbl-r02 th {
+    border-bottom: none;
+  }
 
   .tbl-r02 th,
   .tbl-r02 td {
     display: block;
     width: 100%;
   }
-
-
 }
 
 @media (min-width: 1200px) {
@@ -120,24 +117,35 @@ table {
   }
 }
 
-
 /* リストマーク追加  */
 .list_test-wrap {
-    list-style:  none;  /* デフォルトのアイコンを消す */
-    margin:  0;         /* デフォルト指定上書き */
-    padding: 0;         /* デフォルト指定上書き */
+  list-style: none;
+  /* デフォルトのアイコンを消す */
+  margin: 0;
+  /* デフォルト指定上書き */
+  padding: 0;
+  /* デフォルト指定上書き */
 }
 
 .list_test:before {
-    content:  "";     /* 空の要素作成 */
-    width:  10px;               /* 幅指定 */
-    height:  10px;              /* 高さ指定 */
-    display:  inline-block;     /* インラインブロックにする */
-    background-color: #ec1d25;  /* 背景色指定 */
-    border-radius:  50%;        /* 要素を丸くする */
-    position:  relative;        /* 位置調整 */
-    top: -1px;                  /* 位置調整 */
-    margin-right: 5px;          /* 余白指定 */
+  content: "";
+  /* 空の要素作成 */
+  width: 10px;
+  /* 幅指定 */
+  height: 10px;
+  /* 高さ指定 */
+  display: inline-block;
+  /* インラインブロックにする */
+  background-color: #ec1d25;
+  /* 背景色指定 */
+  border-radius: 50%;
+  /* 要素を丸くする */
+  position: relative;
+  /* 位置調整 */
+  top: -1px;
+  /* 位置調整 */
+  margin-right: 5px;
+  /* 余白指定 */
 }
 
 /* フロアマップ用 */
@@ -157,7 +165,6 @@ table {
   .item-gallery1 {
     width: calc((100% - 30px) / 1);
   }
-
 }
 
 /* 居室用 */
@@ -177,5 +184,9 @@ table {
   .item-gallery2 {
     width: calc((100% - 30px) / 1);
   }
+}
 
+/* 背景グラデーション */
+.bg-g-01 {
+  background: linear-gradient(#05FBFF, #1E00FF);
 }
