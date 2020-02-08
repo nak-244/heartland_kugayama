@@ -3087,6 +3087,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   color: #d61c22;
 }
 
+.tit15 {
+	font-family: 'Noto Sans JP', serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+}
+
 /*[ Text ]
 -----------------------------------------------------------
 */
