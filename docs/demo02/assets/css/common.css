@@ -148,6 +148,27 @@ table {
   /* 余白指定 */
 }
 
+.list_test2:before {
+  content: "";
+  /* 空の要素作成 */
+  width: 10px;
+  /* 幅指定 */
+  height: 10px;
+  /* 高さ指定 */
+  display: inline-block;
+  /* インラインブロックにする */
+  background-color: #000000;
+  /* 背景色指定 */
+  border-radius: 50%;
+  /* 要素を丸くする */
+  position: relative;
+  /* 位置調整 */
+  top: -1px;
+  /* 位置調整 */
+  margin-right: 5px;
+  /* 余白指定 */
+}
+
 /* フロアマップ用 */
 .item-gallery1 {
   width: calc((100% - 140px) / 2);

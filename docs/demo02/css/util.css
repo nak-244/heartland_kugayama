@@ -3097,6 +3097,13 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	word-spacing: 6px;
 }
 
+.tit16 {
+	font-family: 'Noto Sans JP', serif;
+	font-weight: 500;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+
 /*[ Text ]
 -----------------------------------------------------------
 */
