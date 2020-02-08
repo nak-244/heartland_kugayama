@@ -79,7 +79,7 @@
 	  });
 
 		$('.title4-1').textillate({
-	    initialDelay: 9000,
+	    initialDelay: 9500,
 	    in: {
 	      effect: 'fadeInLeft', // エフェクトの指定
 	      delayScale: 1, // 遅延時間の指数
@@ -94,7 +94,7 @@
 	  $('.title4-2').textillate({
 	    initialDelay: 9500,
 	    in: {
-	      effect: 'flipInX', // エフェクトの指定
+	      effect: 'fadeInLeft', // エフェクトの指定
 	      delayScale: 2, // 遅延時間の指数
 	      //		delay: 100,	// 文字ごとの遅延時間
 	      sync: false, // アニメーションをすべての文字に同時に適用
