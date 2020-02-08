@@ -33,7 +33,7 @@
 
             action3[0] = setTimeout(function(){
                 $(btnSlide1[0]).addClass($(btnSlide1)[0].data('appear') + ' visible-true');
-            },1800);              
+            },1800);
         });
 
 
@@ -41,19 +41,19 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             fade: true,
-            dots: true,
+            dots: false,
             appendDots: $('.wrap-slick1-dots'),
             dotsClass:'slick1-dots',
             infinite: true,
             autoplay: true,
             autoplaySpeed: 6000,
-            arrows: true,
+            arrows: false,
             appendArrows: $('.wrap-slick1'),
             prevArrow:'<button class="arrow-slick1 prev-slick1"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
-            nextArrow:'<button class="arrow-slick1 next-slick1"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',  
+            nextArrow:'<button class="arrow-slick1 next-slick1"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
         });
 
-        $('.slick1').on('afterChange', function(event, slick, currentSlide){ 
+        $('.slick1').on('afterChange', function(event, slick, currentSlide){
             for(var i=0; i<itemSlick1.length; i++) {
 
               clearTimeout(action1[i]);
@@ -77,7 +77,7 @@
 
             action3[currentSlide] = setTimeout(function(){
                 $(btnSlide1[currentSlide]).addClass($(btnSlide1)[currentSlide].data('appear') + ' visible-true');
-            },1800);            
+            },1800);
         });
 
 
@@ -96,7 +96,7 @@
 
             action1s2[0] = setTimeout(function(){
                 $(cap1Slide2[0]).addClass($(cap1Slide2[0]).data('appear') + ' visible-true');
-            },200);              
+            },200);
         });
 
 
@@ -113,10 +113,10 @@
             arrows: true,
             appendArrows: $('.wrap-slick2'),
             prevArrow:'<button class="arrow-slick2 prev-slick2"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
-            nextArrow:'<button class="arrow-slick2 next-slick2"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',  
+            nextArrow:'<button class="arrow-slick2 next-slick2"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
         });
 
-        $('.slick2').on('afterChange', function(event, slick, currentSlide){ 
+        $('.slick2').on('afterChange', function(event, slick, currentSlide){
             for(var i=0; i<itemSlick2.length; i++) {
 
               clearTimeout(action1s2[i]);
@@ -126,7 +126,7 @@
 
             action1s2[currentSlide] = setTimeout(function(){
                 $(cap1Slide2[currentSlide]).addClass($(cap1Slide2[currentSlide]).data('appear') + ' visible-true');
-            },200);            
+            },200);
         });
 
 
@@ -159,7 +159,7 @@
 
             action3s3[0] = setTimeout(function(){
                 $(btnSlide3[0]).addClass($(btnSlide3)[0].data('appear') + ' visible-true');
-            },1000);              
+            },1000);
         });
 
 
@@ -176,10 +176,10 @@
             arrows: true,
             appendArrows: $('.wrap-slick3'),
             prevArrow:'<button class="arrow-slick3 prev-slick3"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
-            nextArrow:'<button class="arrow-slick3 next-slick3"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',  
+            nextArrow:'<button class="arrow-slick3 next-slick3"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
         });
 
-        $('.slick3').on('afterChange', function(event, slick, currentSlide){ 
+        $('.slick3').on('afterChange', function(event, slick, currentSlide){
             for(var i=0; i<itemSlick3.length; i++) {
 
               clearTimeout(action1s3[i]);
@@ -203,10 +203,10 @@
 
             action3s3[currentSlide] = setTimeout(function(){
                 $(btnSlide3[currentSlide]).addClass($(btnSlide3)[currentSlide].data('appear') + ' visible-true');
-            },1000);            
+            },1000);
         });
-        
 
-        
+
+
 
 })(jQuery);
