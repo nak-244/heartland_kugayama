@@ -158,11 +158,11 @@
 						<!-- 種類 -->
 						<ul class="selectradio selectradio-inline">
 							<li class="selectradio-item">
-								<input type="radio" id="select2-1" value="資料請求" name="type">
+								<input type="radio" id="select2-1" value="資料請求" name="種類(必須)">
 								<label for="select2-1" class="selectradio-label">資料請求</label>
 							</li>
 							<li class="selectradio-item">
-								<input type="radio" id="select2-2" value="お問い合わせ" name="type">
+								<input type="radio" id="select2-2" value="お問い合わせ" name="種類(必須)">
 								<label for="select2-2" class="selectradio-label">お問い合わせ</label>
 							</li>
 						</ul>
@@ -194,27 +194,26 @@
 						<!-- 電話番号 -->
 						<span class="txt9">電話番号</span>
 						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="電話番号">
 						</div>
 					</div>
 				</div>
 
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-md-4">
-						<!-- 郵便番号 -->
 						<span class="txt9">郵便番号</span>
 						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
 							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="yubin">
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="row">
 					<div class="col-md-12">
 						<!-- 住所 -->
 						<span class="txt9">住所</span>
 						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="address">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="住所">
 						</div>
 					</div>
 				</div>
@@ -223,7 +222,7 @@
 					<div class="col-md-12">
 						<!-- 自由記入 -->
 						<span class="txt9">お問い合わせ内容</span>
-						<textarea class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" name="message" placeholder="ご質問等はこちらへお願いします。"></textarea>
+						<textarea class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" name="お問い合わせ内容" placeholder="ご質問等はこちらへお願いします。"></textarea>
 					</div>
 				</div>
 
@@ -238,6 +237,7 @@
 	</section>
 
 <script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
+<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script>
 
 	<!-- 資料請求 -->
 	<!-- <div class="section-signup bg1-pattern p-t-85 p-b-85">
