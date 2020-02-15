@@ -3618,6 +3618,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .size39 {
 	width: 100%;
 }
+
+.size40 {
+	width: 200px;
+	height: 40px;
+}
 /*[ Background Color ]
 -----------------------------------------------------------
 */
