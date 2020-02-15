@@ -147,96 +147,98 @@
 		</div>
 
 		<div class="container">
-			<form class="wrap-form-reservation size22 m-l-r-auto">
+			<form class="wrap-form-reservation size22 m-l-r-auto" id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
 				<div class="row">
 					<div class="col-md-12">
 						<span class="txt9">お問い合わせの種類</span>
 					</div>
 				</div>
-					<div class="row">
-						<div class="col-md-12">
-							<!-- 種類 -->
-							<ul class="selectradio selectradio-inline">
-								<li class="selectradio-item">
-									<input type="radio" id="select2-1" value="資料請求" name="type">
-									<label for="select2-1" class="selectradio-label">資料請求</label>
-								</li>
-								<li class="selectradio-item">
-									<input type="radio" id="select2-2" value="お問い合わせ" name="type">
-									<label for="select2-2" class="selectradio-label">お問い合わせ</label>
-								</li>
-							</ul>
-						</div>
+				<div class="row">
+					<div class="col-md-12">
+						<!-- 種類 -->
+						<ul class="selectradio selectradio-inline">
+							<li class="selectradio-item">
+								<input type="radio" id="select2-1" value="資料請求" name="type">
+								<label for="select2-1" class="selectradio-label">資料請求</label>
+							</li>
+							<li class="selectradio-item">
+								<input type="radio" id="select2-2" value="お問い合わせ" name="type">
+								<label for="select2-2" class="selectradio-label">お問い合わせ</label>
+							</li>
+						</ul>
 					</div>
-
-					<div class="row">
-						<div class="col-md-6">
-							<!-- お名前 -->
-							<span class="txt9">お名前</span>
-							<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name">
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-8">
-							<!-- メールアドレス -->
-							<span class="txt9">メールアドレス</span>
-							<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="mail">
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-6">
-							<!-- 電話番号 -->
-							<span class="txt9">電話番号</span>
-							<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone">
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-4">
-							<!-- 郵便番号 -->
-							<span class="txt9">郵便番号</span>
-							<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="yubin">
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-12">
-							<!-- 住所 -->
-							<span class="txt9">住所</span>
-							<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="address">
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-12">
-							<!-- 自由記入 -->
-							<span class="txt9">お問い合わせ内容</span>
-							<textarea class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" name="message" placeholder="ご質問等はこちらへお願いします。"></textarea>
-						</div>
-					</div>
-
-					<div class="wrap-btn-booking flex-c-m m-t-13">
-						<!-- Button3 -->
-						<button type="submit" class="btn3 flex-c-m size36 txt11 trans-0-4">送信</button>
-					</div>
-
 				</div>
-			</form>
+
+				<div class="row">
+					<div class="col-md-6">
+						<!-- お名前 -->
+						<span class="txt9">お名前</span>
+						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8">
+						<!-- メールアドレス -->
+						<span class="txt9">メールアドレス</span>
+						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="mail">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<!-- 電話番号 -->
+						<span class="txt9">電話番号</span>
+						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<!-- 郵便番号 -->
+						<span class="txt9">郵便番号</span>
+						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="yubin">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<!-- 住所 -->
+						<span class="txt9">住所</span>
+						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="address">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<!-- 自由記入 -->
+						<span class="txt9">お問い合わせ内容</span>
+						<textarea class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" name="message" placeholder="ご質問等はこちらへお願いします。"></textarea>
+					</div>
+				</div>
+
+				<div class="wrap-btn-booking flex-c-m m-t-13">
+					<!-- Button3 -->
+					<button type="submit" class="btn3 flex-c-m size36 txt11 trans-0-4">送信</button>
+				</div>
+
+		</div>
+		</form>
 		</div>
 	</section>
 
+	<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
+	<script type="text/javascript" src="mailform/postcodes/get.cgi?js" charset="utf-8"></script>
 
 	<!-- 資料請求 -->
 	<!-- <div class="section-signup bg1-pattern p-t-85 p-b-85">
