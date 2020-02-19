@@ -169,6 +169,27 @@ table {
   /* 余白指定 */
 }
 
+.list_test-wrap10 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color:white;
+}
+
+.list_test10:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #ffffff;
+  /* 背景色指定 */
+  border-radius: 50%;
+  /* 要素を丸くする */
+  position: relative;
+  top: -1px;
+  margin-right: 5px;
+}
+
 /* フロアマップ用 */
 .item-gallery1 {
   width: calc((100% - 140px) / 2);
