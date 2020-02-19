@@ -3423,7 +3423,9 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .color1 {color: #222222;}
 .color2 {color: #cccccc;}
 .color3 {color: #333333;}
-
+.color10 {
+  color: #333333;
+}
 .color0-hov:hover {color: #ec1d25;}
 
 
