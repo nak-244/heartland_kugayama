@@ -22,7 +22,7 @@ $conf{'spam_message'} = 'スパム行為の可能性があるため、送信で�
 $conf{'sendmail'} = '/usr/sbin/sendmail';
 
 #06.設置者のアドレス(カンマ区切り)
-$conf{'mailto'} = 'hle_kugayama@ygood.jp';
+$conf{'mailto'} = 'info@ygood.jp';
 
 #07.送信完了時にリダイレクトするサンクスページ
 $conf{'thanks'} = 'https://ygood.jp/kugayama/thanks.html';
