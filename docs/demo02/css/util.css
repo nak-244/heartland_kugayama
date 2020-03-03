@@ -3626,8 +3626,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 -----------------------------------------------------------
 */
 .bg0 {background-color: #ec1d25;}
-.bg1 {background-color: #222222;}
+/* .bg1 {background-color: #222222;} */
 /* .bg2 {background-color: #111111;} */
+.bg1 {
+    background: rgba(22,35,70,1);
+}
 .bg2 {
   background: rgba(22,35,70,1);
 }
