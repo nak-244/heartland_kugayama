@@ -3104,6 +3104,22 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	line-height: 1.2;
 }
 
+.tit17 {
+	font-family: 'Noto Sans JP', serif;
+	font-size: 1.2rem;
+	line-height: 1.2;
+	color: #d61c22;
+}
+
+.tit18 {
+	font-family: 'Noto Sans JP', serif;
+	font-weight: 700;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+}
 /*[ Text ]
 -----------------------------------------------------------
 */
