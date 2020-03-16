@@ -1,8 +1,3 @@
-/*
-Name: 			Theme Base
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	7.6.0
-*/
 
 // Theme
 window.theme = {};
