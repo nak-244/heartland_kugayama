@@ -4567,15 +4567,15 @@ html .image-hotspot-primary .ring {
 }
 
 html .image-hotspot-secondary strong {
-	color: #777 !important;
+	color: #fff !important;
 }
 
 html .image-hotspot-secondary .circle {
-	background: #8ad2f3 !important;
+	background: #ec1d25 !important;
 }
 
 html .image-hotspot-secondary .ring {
-	border-color: rgba(138, 210, 243, 0.9);
+	border-color: rgba(236, 29, 37, 0.9);
 }
 
 html .image-hotspot-tertiary strong {
