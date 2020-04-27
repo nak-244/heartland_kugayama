@@ -112,7 +112,7 @@
 			}
 			checkflag[obj.elements[i].name] = 1;
 		}
-
+		
 		if(errorflag == 0){
 			if(confirm("送信してもよろしいですか？")){
 				for(i=0;i<obj.length ;i++){
@@ -212,13 +212,13 @@
 		alert("this");
 	}
 	var mfObj = document.forms["mailform"];
-
+	
 	var elm = document.createElement('input');
 	elm.type = 'hidden';
 	elm.name = 'javascriptcheck';
 	elm.value = 'enabled';
 	mfObj.appendChild(elm);
-
+	
 	var tagObjects = document.getElementsByTagName("tr");
 	for(i=0;i < tagObjects.length;i++) {
 		if(i % 2 == 1 && tagObjects[i].className == "mfptr"){
