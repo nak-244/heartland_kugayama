@@ -5,11 +5,14 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152806005-2"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-	  gtag('config', 'UA-152806005-2');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-152806005-2');
 	</script>
 
 	<meta charset="utf-8">
@@ -51,19 +54,29 @@
 		}
 	</style>
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-KVKWM6B');</script>
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-KVKWM6B');
+	</script>
 	<!-- End Google Tag Manager -->
 </head>
 
 <body class="animsition">
 
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVKWM6B"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVKWM6B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
 	<!-- Header -->
@@ -293,8 +306,14 @@
 				<div class="col-md-12">
 					<p class="t-center">ペットは、高齢者の方の心と体に、元気を与えます。ご入居を機に、新たにペットを飼いませんか。</p>
 				</div>
-				<div class="col-md-12 p-t-50">
-					<p class="t-center"><a class="btn btn-primary" href="etc.html">ワンちゃんと同居されない方へ</a></p>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+				</div>
+				<div class="col-md-6 p-t-50 alpha">
+					<p class="t-center"><a href="etc.html"><img src="assets/img/btn_etc.jpg" class="img-fluid"></a></p>
+				</div>
+				<div class="col-md-3">
 				</div>
 			</div>
 		</div>
@@ -663,16 +682,16 @@
 	</script>
 
 	<script type="text/javascript">
-	  (function () {
-	    var tagjs = document.createElement("script");
-	    var s = document.getElementsByTagName("script")[0];
-	    tagjs.async = true;
-	    tagjs.src = "//s.yjtag.jp/tag.js#site=tQCB6WN";
-	    s.parentNode.insertBefore(tagjs, s);
-	  }());
+		(function() {
+			var tagjs = document.createElement("script");
+			var s = document.getElementsByTagName("script")[0];
+			tagjs.async = true;
+			tagjs.src = "//s.yjtag.jp/tag.js#site=tQCB6WN";
+			s.parentNode.insertBefore(tagjs, s);
+		}());
 	</script>
 	<noscript>
-	  <iframe src="//b.yjtag.jp/iframe?c=tQCB6WN" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+		<iframe src="//b.yjtag.jp/iframe?c=tQCB6WN" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 	</noscript>
 
 </body>
